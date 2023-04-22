@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       {/* Next Auth Session Provider */}
       <SessionProvider session={pageProps.session}>
         <Head>
-          <title>thirdweb Community Rewards Example</title>
+          <title>Pepemon Pepechain Alphanet NFT</title>
         </Head>
         <Component {...pageProps} />
       </SessionProvider>

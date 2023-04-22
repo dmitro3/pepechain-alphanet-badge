@@ -30,8 +30,8 @@ export default function SignIn() {
   if (!address) {
     return (
       <div className={styles.main}>
-        <h2 className={styles.noGapBottom}>Connect Your Wallet</h2>
-        <p>Connect your wallet to check eligibility.</p>
+        <h2 className={styles.noGapBottom}>Connect</h2>
+        <p>Mint Alphamon NFT</p>
         <button
           onClick={connectWithMetamask}
           className={`${styles.mainButton} ${styles.spacerTop}`}
@@ -46,7 +46,7 @@ export default function SignIn() {
   if (!session) {
     return (
       <div className={`${styles.main}`}>
-        <h2 className={styles.noGapBottom}>Sign In with Discord</h2>
+        <h2 className={styles.noGapBottom}>Login with Discord</h2>
         <p>
           👋{" "}
           <i>
@@ -58,13 +58,11 @@ export default function SignIn() {
           </i>
         </p>
 
-        <p>Sign In with Discord to check your eligibility for the NFT!</p>
+        <p>Login with Discord to check your eligibility for the NFT!</p>
 
         <p>
-          <i>
-            (we check to see if you are a member of the thirdweb discord when
-            you try to mint).
-          </i>
+          We check to see if you are a member of the Pepemon Discord when you
+          try to mint.
         </p>
 
         <button

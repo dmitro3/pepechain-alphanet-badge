@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import SignIn from "../components/SignIn";
 import styles from "../styles/Theme.module.css";
 
-export const contractAddress = "0xb5201E87b17527722A641Ac64097Ece34B21d10A";
+export const contractAddress = "0x95C3976d1f29fD21D3EBEd5C4987B38C9DB23a4B";
 
 export default function Home() {
   // Grab the currently connected wallet's address
@@ -53,7 +53,7 @@ export default function Home() {
 
       // Show a link to view the NFT they minted
       alert(
-        `Success 🔥 Check out your NFT here: https://testnets.opensea.io/assets/mumbai/0xb5201e87b17527722a641ac64097ece34b21d10a/${nft.id.toNumber()}`
+        `Success 🔥 Check out your NFT here: https://testnets.opensea.io/assets/mumbai/0x95C3976d1f29fD21D3EBEd5C4987B38C9DB23a4B/${nft.id.toNumber()}`
       );
     }
     // If the user does not meet the criteria to have a signature generated, we can show them an error
@@ -64,24 +64,24 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>thirdweb Community Rewards Example</h1>
+      <h1 className={styles.h1}>Pepemon Pepechain Alphanet Badge</h1>
 
       <p className={styles.explain}>
-        An example project demonstrating how you can use{" "}
+        Mint your Alphanet badge and be the first to participate in{" "}
         <a
-          href="https://thirdweb.com/"
+          href="https://pepechain.pepemon.world/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.purple}
         >
-          thirdweb
+          Pepechain
         </a>
-        &apos;s signature-based minting to reward your community.
+        <br></br>Alphanet Testing and potential Airdrop!
       </p>
 
       <p className={styles.explain}>
-        This demo checks if the user is a member of your Discord server, and
-        allows them to mint an NFT if they are.
+        We check if you are is a member of our Discord server, and allow you to
+        mint an NFT if you are.
       </p>
 
       <hr className={styles.divider} />
@@ -101,7 +101,7 @@ export default function Home() {
             <div className={styles.nftPreview}>
               <b>Your NFT:</b>
               <img src={session?.user.image} />
-              <p>{session.user.name}&apos;s thirdweb Discord Member NFT</p>
+              <p>{session.user.name}&apos;s Pepemon Pepechain Alphamon NFT</p>
             </div>
 
             <Web3Button
@@ -118,7 +118,7 @@ export default function Home() {
             <p>Looks like you are not a part of the Discord server.</p>
             <a
               className={styles.mainButton}
-              href={`https://discord.com/invite/thirdweb`}
+              href={`https://discord.gg/R8sZwMv`}
             >
               Join Server
             </a>
