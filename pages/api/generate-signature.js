@@ -7,7 +7,7 @@ export default async function generateNftSignature(req, res) {
   const session = await unstable_getServerSession(req, res, authOptions);
 
   // Put Your Discord Server ID here
-  const discordServerId = "834227967404146718";
+  const discordServerId = "759832781152190465";
 
   // Grab the claimer address (currently connected address) out of the request body
   const { claimerAddress } = JSON.parse(req.body);
