@@ -30,8 +30,11 @@ export default function SignIn() {
   if (!address) {
     return (
       <div className={styles.main}>
-        <h2 className={styles.noGapBottom}>Connect</h2>
-        <p>Mint Alphamon NFT</p>
+        <h2 className={styles.noGapBottom}>Mint your Alphamon NFT</h2>
+        <p>
+          Connect your favorite wallet and boost your chances of landing a
+          legendary drop! Mint your NFT now and become a part of crypto history!
+        </p>
         <button
           onClick={connectWithMetamask}
           className={`${styles.mainButton} ${styles.spacerTop}`}

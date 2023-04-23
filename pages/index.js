@@ -64,10 +64,10 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Pepemon Pepechain Alphanet Badge</h1>
+      <h1 className={styles.h1}>Join the Pepemon Pepechain Revolution!</h1>
 
       <p className={styles.explain}>
-        Mint your Alphanet badge and be the first to participate in{" "}
+        Secure Your Spot in{" "}
         <a
           href="https://pepechain.pepemon.world/"
           target="_blank"
@@ -76,12 +76,12 @@ export default function Home() {
         >
           Pepechain
         </a>
-        <br></br>Alphanet Testing and potential Airdrop!
+        <br></br>Testnet & Unlock Exclusive Rewards!
       </p>
 
       <p className={styles.explain}>
-        We check if you are is a member of our Discord server, and allow you to
-        mint an NFT if you are.
+        As a valued member of our Discord community, you're eligible to mint a
+        limited-edition Alphamon NFT. Don't miss out
       </p>
 
       <hr className={styles.divider} />
